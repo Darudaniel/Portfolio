@@ -14,6 +14,7 @@ html {
   --dark-blue: #0f4c75;
   --high-blue: #3282b8;
   --sky-blue: #bbe1fa;
+  --just-white: #fff;
 }
 
 /* HEADER */
@@ -118,23 +119,23 @@ section {
 h2 {
   font-size: 2.5rem;
   margin-top: 1.5rem;
+  color:var(--just-white);
 }
 
 ul {
   padding: 1rem;
-
 }
 
 .projects {
-  background-color: #3282b8;
+  background-color: var(--dark-blue);
   height: auto;
-  color: white;
-  
+  color: white;    
 }
+
 
 .projects ul li {
   list-style: none;
-  background-color: #bbe1fa;
+  background-color: var(--just-white);
   border: 1rem;
   height: auto;
   font-size: 2.5rem;
@@ -147,13 +148,10 @@ ul {
 /* CONTACTO */
 
 .contact {
-  background-color: #bbe1fa;
+  background-color: var(--high-blue);
   height: auto;
 }
 
-.contact h1 {
-  color: #1b262c;
-}
 
 form{
   padding: 3rem;
@@ -190,7 +188,7 @@ footer {
   display: flex;
   align-items: center;
   padding: 1rem;
-  background-color: #0f4c75;
+  background-color: var(--sky-blue);
 
 }
 
@@ -198,7 +196,7 @@ footer div {
   width: 50%;
   padding: 2rem;
   text-align: center;
-  color: #ecf8ff;  
+  color: var(--darkest-blue);  
 }
 
 footer div h3 {

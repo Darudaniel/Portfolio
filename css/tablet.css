@@ -1,0 +1,63 @@
+header {
+  padding: 13px;
+}
+
+.header--button {
+  font-size: 1.8rem;
+  width: auto;
+  padding: 30px 25px;
+  bottom: -35px;
+
+}
+
+.header--button span {
+  width: 2.6rem;
+  margin-bottom: 8px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  margin: 30px auto;
+  font-size: 3.5rem;
+}
+
+.projects ul {
+  display: flex;
+  margin: 0 auto;
+}
+.contact form {
+  padding: 50px;
+  padding-top: 0;
+}
+
+.contact span {
+  font-size: 3rem;
+}
+
+.contact input {
+  height: 8vh;
+  width: 100%;
+}
+
+footer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer div {
+  font-size: 2.4rem;
+  width: 2000px;    
+}
+
+footer figure {
+  padding-top: 30px;
+}
+
+footer figure img {
+  width: 60px;
+}
