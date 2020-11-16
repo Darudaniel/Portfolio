@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  
+}
+
+.contact h2 {
+  width: 100vw;
+  margin: 30px auto;
+  text-align: center;    
+}
+
+footer div {
+  padding-top: 20px;
+}
