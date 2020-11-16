@@ -76,7 +76,7 @@ nav li {
 }
 
 .header--button span {
-  background-image: url('../Imagenes/icons/mdi_keyboard_arrow_down2.svg');
+  background-image: url('../assets/icons/mdi_keyboard_arrow_down2.svg');
   background-size: cover;
   display: inline-block;
   width: 19.5px;
@@ -95,7 +95,7 @@ nav li {
   border-radius: 50%;
   margin-top: 30px;
   margin-bottom: 10px;
-  background-image: url('../Imagenes/perfilcomprimida.jpg'); 
+  background-image: url('../assets/imgs/perfilcomprimida.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat 
