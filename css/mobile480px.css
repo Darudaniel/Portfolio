@@ -1,0 +1,18 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  margin: 30px auto;
+  font-size: 3.5rem;
+}
+
+.contact h2 {
+  margin-bottom: 0;
+}
+
+footer h3 {
+  font-size: 1.6rem;
+}
