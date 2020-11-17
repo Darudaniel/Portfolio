@@ -1,14 +1,49 @@
+h2 {
+  font-size: 5.5rem;
+  margin-bottom: 80px;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+.projects {
+  padding-bottom: 70px;
+  padding-top: 80px;
+}
+
+.project--articles-container li {
+  
+}
+
+.project--articles-container h5 {
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.project--articles-container p {
+  font-size: 2.2rem;
+  padding: 55px;
+}
+
+
+
+.visit-site-button {
+  font-size: 1.8rem;
+}
+
 .contact {
   display: flex;
   
 }
 
-.contact h2 {
-  width: 100vw;
-  margin: 30px auto;
-  text-align: center;    
+footer div {
+  padding-top: 30px;
+
 }
 
-footer div {
-  padding-top: 20px;
+
+
+footer figure {
+  padding-top: 28px;
 }

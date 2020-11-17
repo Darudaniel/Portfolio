@@ -26,17 +26,48 @@ h2 {
   font-size: 3.5rem;
 }
 
+h5 {
+  font-size: 2.5rem;
+}
+
+.projects {
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
 .projects ul {
   display: flex;
   margin: 0 auto;
 }
+
+.project--articles-container h5 {
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.project--articles-container p {
+  font-size: 1.7rem;
+  padding: 55px;
+  padding-top: 30px;
+}
+
+.visit-site-button {
+  font-size: 1.6rem;
+}
+
 .contact form {
   padding: 50px;
   padding-top: 0;
 }
 
-.contact span {
-  font-size: 3rem;
+.contact h2 {
+  width: 100vw;
+  margin: 30px auto;
+  text-align: center;    
+}
+
+.contact label span {
+  font-size: 2.5rem;
 }
 
 .contact input {
@@ -47,6 +78,10 @@ h2 {
 footer {
   flex-wrap: wrap;
   justify-content: center;
+}
+
+footer h3 {
+  font-size: 2.5rem;
 }
 
 footer div {

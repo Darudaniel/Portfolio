@@ -116,6 +116,22 @@ main section {
 
 /* PROYECTOS */
 
+li article {
+  max-width: 800px;
+  display: block;
+}
+
+article img {
+  max-width: 440px;
+  margin-top: 30px;  
+}
+article figure {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
 section {
   padding: 3rem;
 }
@@ -163,6 +179,10 @@ ul {
 
 .project--articles-container img {
   width: 100%;
+}
+
+.project--article-contaainer article img {
+  max-width: 440px;
 }
 
 .visit-site-button {
