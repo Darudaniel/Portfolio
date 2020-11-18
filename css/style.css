@@ -128,8 +128,7 @@ li article {
 }
 
 article img {
-  max-width: 440px;
-  margin-top: 30px;  
+  max-width: 500px;
 }
 article figure {
   margin: 0 auto;
