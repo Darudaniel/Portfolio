@@ -17,6 +17,12 @@ html {
   --sky-blue: #99E1FA;
   --just-white: #fff;
   --grey-chill: #C9C9C9;
+
+  --purple: #c0ffb3;
+  --purple-blue: #222831;
+  --blue-fantasy: #eeeeee;
+  --blue-clear: #393e46;
+
 }
 
 /* HEADER */
@@ -26,7 +32,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #1b262c;
+  background-color: var(--purple);
 }
 
 nav {
@@ -92,7 +98,7 @@ nav li {
   justify-content: center;
   width: 25vw;
   height: 25vw;
-  border: 2px solid var(--dark-blue) ;
+  border: 2px solid var(--purple-blue) ;
   border-radius: 50%;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -149,7 +155,7 @@ ul {
 }
 
 .projects {
-  background-color: var(--dark-blue);
+  background-color: var(--purple-blue);
   height: auto;
   color: white;    
 }
@@ -207,10 +213,13 @@ ul {
 /* CONTACTO */
 
 .contact {
-  background-color: var(--high-blue);
+  background-color: var(--blue-fantasy);
   height: auto;
 }
 
+.contact h2 {
+  color: var(--purple-blue);
+}
 
 form{
   padding: 3rem;
@@ -247,7 +256,7 @@ footer {
   display: flex;
   align-items: center;
   padding: 1rem;
-  background-color: var(--sky-blue);
+  background-color: var(--blue-clear);
 
 }
 
@@ -255,7 +264,7 @@ footer div {
   width: 50%;
   padding: 2rem;
   text-align: center;
-  color: var(--darkest-blue);  
+  color: var(--just-white);  
 }
 
 footer div h3 {
