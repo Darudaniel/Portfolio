@@ -52,12 +52,13 @@ header {
   align-items: flex-end;
   padding-top: 20px;
   height: auto;  
+  width: 100%;
 }
 
 .hero-container {
   justify-self: center;
   border: 1px solid var(--darkest-grey);
-  padding: 8px;
+  padding: 2vw;
   border-radius: 5px;
   background-color: white;
 }
@@ -87,7 +88,7 @@ header {
 .cite-container {
   background-color: white;
   padding: 14px 12px;
-  margin-bottom: 5px;
+  margin-bottom: 2vw;
   border-radius: 5px;
   align-self: flex-start;
 }
@@ -114,7 +115,8 @@ header {
   background-image: url('../assets/imgs/perfilcomprimida.jpg'); 
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat 
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .header--presentation {

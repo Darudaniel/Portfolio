@@ -2,6 +2,20 @@ header {
   padding: 13px;
 }
 
+.hero-container {
+  border-radius: 10px;
+}
+.header--presentation h3 {
+  font-size: 1.8rem;
+}
+.header--presentation p {
+  font-size: 1.2rem;
+}
+.header--presentation br {
+  display: none;
+}
+
+
 .header--button {
   font-size: 1.8rem;
   width: auto;
@@ -19,6 +33,8 @@ header {
 }
 .cite-container {
   padding: 15px;
+  margin-bottom: 6vw;
+  border-radius: 10px;
 }
 
 .projects {

@@ -6,12 +6,29 @@ h2 {
 h5 {
   font-size: 3rem;
 }
+
+.header--presentation h3 {
+  font-size: 3rem;
+}
+.header--presentation p {
+  font-size: 2rem;
+}
 .header--text-container{
   font-size: 2.2rem;
   line-height: 4rem;
+  max-height: 248px;
 }
 .cite-container {
   padding: 20px;
+  margin-bottom: 5vw;
+}
+
+.cite-space {
+  display: none;
+}
+
+.CTA-text {
+  margin-top: 20px;
 }
 
 .projects {
