@@ -3,7 +3,12 @@
   flex-direction: column;
   justify-content: center;
 }
-
+.header--text-container{
+  font-size: 1.2rem;
+}
+.cite-container {
+  padding: 12px;
+}
 h2 {
   margin: 30px auto;
   font-size: 3.5rem;
