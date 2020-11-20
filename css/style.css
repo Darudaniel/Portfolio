@@ -20,7 +20,7 @@ html {
   /* Greys */
   --just-white: #fff;
   --grey-chill: #C9C9C9;
-  --purple: #f4f4f2;
+  --white-special: #f4f4f2;
   --darkest-grey: #222831;
   --clean-grey: #eeeeee;
   --medium-grey: #393e46;
@@ -34,7 +34,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--purple);
+  background-color: var(--white-special);
 }
 
 .header--header-container {
